@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'gitapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_379a27b105f7469490229109edfaae95 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f6523add6fab4bc1ad712a1ecadc1f25 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
